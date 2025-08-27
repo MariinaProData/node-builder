@@ -1,0 +1,8 @@
+{
+  "watch": ["src", "public"],
+  "env": {
+    "DEV": true,
+    "PORT": 3333
+  },
+  "ext": "css,js,svg"
+}

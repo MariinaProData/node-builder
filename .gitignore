@@ -1,0 +1,4 @@
+*.html
+node_modules
+sprite.svg
+style.css

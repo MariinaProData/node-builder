@@ -1,0 +1,11 @@
+{
+	"name": "site",
+	"type": "module",
+	"scripts": {
+		"build": "node tools/build.js",
+		"dev": "nodemon src"
+	},
+	"devDependencies": {
+		"nodemon": "3.1.10"
+	}
+}

@@ -1,0 +1,41 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-width: 320px;
+	margin: 0;
+	min-height: 100vh;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+main {
+	flex-grow: 1;
+}
+
+button,
+input {
+	margin: 0; /* Safari */
+}
+
+a {
+	color: inherit;
+}
+
+legend:hover,
+label:hover,
+button:hover,
+[type="checkbox"]:hover,
+[type="radio"]:hover {
+	cursor: pointer;
+}
+
+img,
+video {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
